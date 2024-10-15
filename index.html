@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="kalkulator">
+      <input type="number" id="angka1" placeholder="Angka 1" />
+      <input type="number" id="angka2" placeholder="Angka 2 (opsional)" />
+      <select id="operasi">
+        <option value="+">Penjumlahan</option>
+        <option value="-">Pengurangan</option>
+        <option value="*">Perkalian</option>
+        <option value="/">Pembagian</option>
+        <option value="**">Eksponen (pangkat)</option>
+        <option value="%">Modulus (menghasilkan sisa hasil pembagian)</option>
+        <option value="++">Increment (menambah 1)</option>
+        <option value="--">Decrement (mengurangi 1)</option>
+      </select>
+      <button id="hitung">Hitung</button>
+      <p id="hasil"></p>
+      <p>Untuk mencoba menu Yang lain silahkan click refresh</p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
